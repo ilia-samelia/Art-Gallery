@@ -1,0 +1,148 @@
+/* Dissapearing background images */
+.tablet-image-map,
+.mobile-image-map {
+  display: none;
+}
+
+.background-image img {
+  width: 100%;
+  position: relative;
+}
+
+.buttons {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 156px;
+}
+
+.pointer-btn {
+  width: 56px;
+  height: 72px;
+  background-color: #d5966c;
+  border: none;
+  cursor: pointer;
+  transform: translate(4px, 2.5px);
+}
+
+.back-to-home-btn {
+  width: 208px;
+  height: 72px;
+  font-family: Big Shoulders Display;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.636px;
+  background-color: #151515;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons:hover .back-to-home-btn {
+  background-color: #d5966c;
+}
+
+.buttons:hover .pointer-btn {
+  background-color: #151515;
+}
+
+/* Location second part */
+
+.location-information {
+  padding: 104px 165px 128px 165px;
+  background-color: #151515;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information-header {
+  color: #fff;
+  font-family: Big Shoulders Display;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  text-transform: uppercase;
+  width: 350px;
+}
+
+.street {
+  color: #d5966c;
+
+  font-family: Big Shoulders Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.country {
+  color: #fff;
+  width: 445px;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.near-to {
+  color: #fff;
+  width: 540px;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+/* Footer */
+
+.gallery-logo-description-media {
+  background-color: #d5966c;
+  padding: 80px 165px 80px 165px;
+}
+/* footer {
+  background-color: #151515;
+  padding: 8rem 16.5rem;
+} */
+
+.gallery-logo-description-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-logo-description {
+  display: flex;
+  justify-content: space-between;
+  width: 730px;
+}
+
+.gallery-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-description {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #151515;
+  width: 430px;
+}
+
+.media-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:hover .soc-icon,
+a:active .soc-icon {
+  fill: #fff;
+}

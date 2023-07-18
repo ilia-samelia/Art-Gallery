@@ -1,0 +1,144 @@
+/* TABLETS */
+@media (max-width: 64em) {
+  /* Disappearing background images */
+  .desktop-image-map,
+  .mobile-image-map {
+    display: none;
+  }
+
+  /* Appearing background images */
+  .tablet-image-map {
+    display: block;
+  }
+
+  .background-image img {
+    width: 100%;
+  }
+
+  .buttons {
+    left: 39px;
+  }
+
+  /* Location second part */
+  .location-information {
+    padding: 88px 40px 80px 39px;
+  }
+
+  .information-header {
+    font-size: 55px;
+    line-height: 50px;
+    width: 223px;
+  }
+
+  .street {
+    font-size: 32px;
+    line-height: 32px;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+
+  .country {
+    font-size: 18px;
+    line-height: 28px;
+    width: 199px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .near-to {
+    font-size: 18px;
+    line-height: 28px;
+    width: 398px;
+  }
+
+  /* Footer */
+
+  .gallery-logo-description-media {
+    padding: 56px 40px;
+  }
+
+  .gallery-logo-description {
+    width: 506px;
+  }
+
+  .footer-description {
+    font-size: 16px;
+    line-height: 26px;
+    width: 281px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 30em) {
+  /* Dissapearing images */
+  .desktop-image-map,
+  .tablet-image-map {
+    display: none;
+  }
+
+  /* Appearing images */
+  .mobile-image-map {
+    display: block;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-5px, -5px);
+  }
+
+  .location-information {
+    display: block;
+    padding: 4.8rem 1.6rem 5.6rem 1.6rem;
+  }
+
+  .information-header {
+    width: 343px;
+    margin-bottom: 48px;
+  }
+
+  .street {
+    width: 343px;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .country {
+    width: 343px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .near-to {
+    width: 343px;
+  }
+
+  /* Footer */
+
+  .gallery-logo-description-media {
+    padding: 48px 32px;
+  }
+  .gallery-logo-description-media,
+  .gallery-logo-description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery-logo-description {
+    width: 343px;
+  }
+
+  .gallery-logo,
+  .footer-description {
+    margin-bottom: 38px;
+  }
+}

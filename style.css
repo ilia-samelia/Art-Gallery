@@ -1,0 +1,246 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", "Big Shoulders Display";
+  position: relative;
+}
+
+.container {
+  padding: 19rem 16.5rem 0 16.5rem;
+}
+
+.background-image-container {
+  display: flex;
+}
+
+/* Dissapearing images */
+.tablet-image,
+.tablet-img-grid-1,
+.tablet-img-grid-2,
+.tablet-img-grid-3,
+.mobile-image,
+.mobile-img-grid-1,
+.mobile-img-grid-2,
+.mobile-img-grid-3 {
+  display: none;
+}
+/* .mobile-img-grid-1,
+.mobile-img-grid-2,
+.mobile-img-grid-3 */
+
+.black-wallpaper {
+  background-color: #151515;
+  width: 45rem;
+  height: 80rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* .black-wallpaper img */
+.desktop-img {
+  position: absolute;
+  top: 0;
+  left: 45rem;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  max-width: 111rem;
+}
+
+.introduction-header {
+  color: #fff;
+  font-family: Big Shoulders Display;
+  font-size: 96px;
+  font-weight: 900;
+  width: 51.4rem;
+  mix-blend-mode: difference;
+  opacity: 1;
+}
+
+.paragraph-description p {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  width: 35rem;
+  margin-bottom: 6.4rem;
+}
+
+.buttons:link,
+.buttons:visited {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 9rem;
+  text-decoration: none;
+}
+
+.buttons button:hover,
+.buttons button:active {
+  cursor: pointer;
+}
+
+/* Hovering buttons and changing their colors IMPORTANT!!! */
+.buttons:hover .pointer-btn {
+  background-color: #151515;
+}
+
+.buttons:hover .location-btn {
+  background-color: #d5966c;
+}
+
+.location-btn,
+.pointer-btn {
+  border: none;
+  height: 7.2rem;
+}
+
+.location-btn {
+  width: 20.4rem;
+  background-color: #151515;
+  color: #fff;
+  font-family: Big Shoulders Display;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.636px;
+}
+
+.pointer-btn {
+  width: 5.6rem;
+  background-color: #d5966c;
+}
+
+.first-part {
+  margin-bottom: 48rem;
+}
+
+/* End of first part */
+
+.gallery-exibition {
+  max-width: 111rem;
+  margin: 0 auto;
+  margin-bottom: 18rem;
+}
+
+.exibition-first-part {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.exibition-first-part-header-description {
+  width: 35rem;
+  color: #444;
+
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.exibition-first-part-header {
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+
+.exibition {
+  display: flex;
+  align-items: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+/* Exibition second part */
+
+.exibition-second-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-and-last-descriprion {
+  margin-left: 3rem;
+}
+
+.last-description {
+  margin-top: 3rem;
+  background-color: #151515;
+  padding: 6.5rem 4.7rem 6.4rem 4.8rem;
+}
+
+.last-description h3 {
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 3.2rem;
+}
+
+.last-description p {
+  width: 35rem;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  max-width: 100%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #151515;
+  padding: 8rem 16.5rem;
+}
+
+.gallery-logo-description-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-logo-description {
+  display: flex;
+  justify-content: space-between;
+  width: 73rem;
+}
+
+.gallery-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-description {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fff;
+  width: 43rem;
+}
+
+.media-container {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:hover .soc-icon,
+a:active .soc-icon {
+  fill: #d5966c;
+}
